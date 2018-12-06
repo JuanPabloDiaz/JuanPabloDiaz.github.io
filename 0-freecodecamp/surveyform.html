@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8" />
+	<title>Survey Form</title>
+	<link href="../.css" rel="stylesheet" >
+</head>
+<body>
+	<header>
+		<h2>Instructions: <a href="https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form" target="_blank">here</a></h2>
+		<h1 id="title">Survey Form</h1>
+	</header>
+	
+	<main>
+	<div>
+		<p id="description">Please fill out the next form:</p>
+		<form action="" id="survey-form">
+			<label id="name-label" for="name">
+				Name:</label>
+					<input id="name" type="text" placeholder="Enter your full name *"><br>
+			<label id="email-label" for="email">
+				Email:</label>
+					<input id="email" type="email" placeholder="Enter your email *"><br>
+			<label id="number-label" for="age">
+				Age:</label>
+					<input id="number" type="number" min="21" max="60" placeholder="Enter your Age"><br>
+			<div id="dropdown">
+				<label id="gender-label">
+					Gender:</label>
+							<select id="select">
+								<option value="one">Enter your Gender</option>
+								<option value="two">Male</option>
+								<option value="three">Female</option>
+							</select><br>
+			</div>
+			<fieldset>
+				<legend>Race: (Please choose one *)</legend>
+					<div id="checkboxes" class="form-group">
+						<input type="checkbox" id="cb1" />
+							<label for="cb1">Hispanic/Latin</label>
+						<input type="checkbox" id="cb2" />
+							<label for="cb2">White</label>
+						<input type="checkbox" id="cb3" />
+							<label for="cb3">African American</label>
+						<br>
+						<input type="checkbox" id="cb4" />
+							<label for="cb3">Asian</label>     
+						<input type="checkbox" id="cb5" />
+							<label for="cb3">Native American</label>
+						<input type="checkbox" id="cb6" />
+						 <label for="cb3">other</label>    	
+			</fieldset>
+			<label id="comments" for="comments">
+				Any Comments or concerns?</label><br>
+					<textarea id="comments" placeholder="Optional"></textarea><br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	
+	</main>
+	
+	<footer style="margin: 2em auto 0 auto;">
+		<p> Designed by Juan Diaz &copy;2018</p>
+		<br />	 
+
+		<a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fstudents.cpcc.edu%2F~dpatel35%2Fweb110%2Ftemplate.html">
+			<img src="http://students.cpcc.edu/~dpatel35/web110/images/html_validation_button.gif" alt="validate html" />
+		</a>
+
+		<a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fstudents.cpcc.edu%2F~dpatel35%2Fweb110%2Ftemplate.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" >
+			<img src="http://students.cpcc.edu/~dpatel35/web110/images/validation_button_css.png" alt="validate CSS" />
+		</a>
+		<br />		<br />
+	</footer>	 
+</body>	 
+</html>
