@@ -10,7 +10,7 @@
 }
 .rectangle, #TOC {
     font-family: 'Courgette', cursive;
-    background-color: rgba(86, 16, 91, 0.82);
+    background-color: rgba(6, 16, 91, 0.82);
     margin: 0px auto;
     max-width: 800px;
 		border-style: ridge;
@@ -22,6 +22,9 @@
 		text-align: center;
 		text-shadow: .2px .5px .1px black, 
                 .3px .3px 5px black;
+}
+.rectangle ul li {
+			font-weight: bold;
 }
 #TOC {
 	text-align: center;
@@ -57,8 +60,8 @@ body{
 /* template web110 */
 /* everything in the header is the first and uper box */
 	header{
-		background-color: white;	/*change to ivory - DI want to change it but I dont like it, just change after the course ends.*/
-		color: black;
+		background-color: gray;
+		color: ivory;
 	}
 	header h1{	/* website name go rigth */
 		float: left;
