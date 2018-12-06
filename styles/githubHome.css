@@ -202,7 +202,7 @@ li.dropdown {
   min-width: 160px;
   z-index: 1;
 }
-.dropdown-content a {
+.dropdown-content .dropA {
   color: black;
   padding: 5px 10px;
   text-decoration: none;
