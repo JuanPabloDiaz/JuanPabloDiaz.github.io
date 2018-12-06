@@ -1,7 +1,8 @@
 /*    CSS code */
-.backg {
-   	background: url(http://juan.diaz.people.cpcc.edu/background/b_w/mar.jpg) no-repeat bottom right;
-    background-repeat: no-repeat;
+.backg { /* unsplash.com/t/wallpapers - random placeholder images - check: "https://picsum.photos/" or watch ->(https://www.youtube.com/watch?v=uc748NLoFT8)*/
+		background: url(https://picsum.photos/g/1000?image=1005) no-repeat bottom right;
+  	/*http://juan.diaz.people.cpcc.edu/background/b_w/mar.jpg*/
+   	background-repeat: no-repeat;
     background-attachment: fixed;			/*	to center image verticaly	*/
 		background-size: cover;
 		background-position: center; 			/*	to center image verticaly	*/
@@ -62,11 +63,20 @@ body{
 	header{
 		background-color: gray;
 		color: ivory;
+		align-items: center;
 	}
 	header h1{	/* website name go rigth */
 		float: left;
-		font-size: 50px;
+		font-size: 45px;
 		padding-left: 5px;
+		
+		/* Clip an image to text with CSS */
+			font-size: 5vw;
+			background-image: url(https://unsplash.it/42);
+			background-size: cover;
+			background-clip: text;
+			-webkit-background-clip: text;
+			color: transparent;
 	}
 	header .logo{ /* website Logo go rigth */
 		width: 15%;		/* resize */

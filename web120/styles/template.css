@@ -154,7 +154,7 @@ body{
 		font-size:50px;
 		line-height: 1.6em;
 		padding-top:50px;		/*ideal to use 		vertical-align: middle;	- doesnt work */
-
+	  align-items: center;
 	}
 
 #main{
