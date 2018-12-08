@@ -71,12 +71,13 @@ body{
 		padding-left: 5px;
 		
 		/* Clip an image to text with CSS */
+		/* lo estoy desavilitando porque todavia tiene errores y no lo he podido arreglar:
 			font-size: 5vw;
 			background-image: url(https://unsplash.it/42);
 			background-size: cover;
 			background-clip: text;
 			-webkit-background-clip: text;
-			color: transparent;
+			color: transparent;		*/
 	}
 	header .logo{ /* website Logo go rigth */
 		width: 15%;		/* resize */
