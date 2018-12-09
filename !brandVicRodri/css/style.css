@@ -1565,8 +1565,8 @@ i:before {
 /* Categories Banner Area css
 ============================================================================================ */
 .categories_banner_area {
-  background: url(../img/banner/categories-banner.jpg) no-repeat scroll center center;
-  background-size: cover;
+  background: url(https://www.solsticesunglasses.com/medias/men-viewall-brands-banner.jpg?context=bWFzdGVyfGltYWdlc3w4NjE3NXxpbWFnZS9qcGVnfGltYWdlcy9oZjMvaDg3Lzg3OTY5MDE5MzMwODYuanBnfGNiOTFiNjM1ZjllNThlYTc1YWEyMWNkNTZhNTZiMzZiYzUwN2UyOTc0MDAzM2Q3ZmYyNjA3NTc4YzFjZWIzNGY) no-repeat scroll center center;
+  background-size:cover;
   position: relative;
   z-index: 3;
 }
