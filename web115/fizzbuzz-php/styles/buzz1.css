@@ -20,7 +20,7 @@
 	text-align: center;
 	
 	/* http://juan.diaz.people.cpcc.edu/background/b_w/mar.jpg */
-  background: url(http://students.cpcc.edu/~jdiaz028/web115/images/skylineBogota.svg.png) no-repeat bottom right;
+  background: url(../../images/skylineBogota.svg.png) no-repeat bottom right;
   background-repeat: no-repeat;
   background-attachment: fixed;		/*	to center image verticaly	*/
 	background-size: 100%;

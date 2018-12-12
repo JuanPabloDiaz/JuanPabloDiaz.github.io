@@ -1,23 +1,23 @@
 /*    CSS code */
 .backg {
-   	background: url(http://juan.diaz.people.cpcc.edu/background/b_w/mar.jpg) no-repeat bottom right;
+   	background: url(../../web120/images/mar.jpg) no-repeat bottom right;
     background-repeat: no-repeat;
     background-attachment: fixed;			/*	to center image verticaly	*/
-		background-size: cover;
-		background-position: center; 			/*	to center image verticaly	*/
+	background-size: cover;
+	background-position: center; 			/*	to center image verticaly	*/
     color: #ffd900;
-	  font-family: 'Marck Script', cursive;		/* font for nav and everything but the main*/
+	font-family: 'Marck Script', cursive;		/* font for nav and everything but the main*/
 }
 .rectangle, #TOC {
     font-family: 'Courgette', cursive;
     background-color: rgba(86, 16, 91, 0.82);
     margin: 0px auto;
     max-width: 800px;
-		border-style: ridge;
+    border-style: ridge;
     border-width: 5px;
     border-color: black;
-		text-align: center;
-		text-shadow: .2px .5px .1px red, 
+	text-align: center;
+	text-shadow: .2px .5px .1px red, 
                 .3px .3px 5px red;
 }
 #TOC {
@@ -114,7 +114,6 @@ body{
 
 .fa:hover {
     opacity: 0.7;
-	
 }
 
 .fa-facebook {

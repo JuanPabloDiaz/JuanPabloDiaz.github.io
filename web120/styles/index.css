@@ -177,7 +177,7 @@ footer{
 }
 /**************  TOC SECTION  ********************/
 .toc {
-	background:linear-gradient( rgba(0, 255, 0, 0.1) 50%, rgba(0, 0, 0, 0.5)100%),url(http://juan.diaz.people.cpcc.edu/background/b_w/boat.jpg);
+	background:linear-gradient( rgba(0, 255, 0, 0.1) 50%, rgba(0, 0, 0, 0.5)100%),url(../images/boat.jpg);
 	background-repeat: no-repeat;
   background-attachment: fixed;			/*	to center image verticaly	*/
 	background-size: cover;
@@ -217,7 +217,7 @@ a:hover {
 }
 /***************** Comming Soon ******************/
 .backg {
- 	background: url(http://juan.diaz.people.cpcc.edu/background/b_w/mar.jpg) no-repeat bottom right;
+ 	background: url(../images/mar.jpg) no-repeat bottom right;
    background-repeat: no-repeat;
    background-attachment: fixed;			/*	to center image verticaly	*/
 	background-size: cover;

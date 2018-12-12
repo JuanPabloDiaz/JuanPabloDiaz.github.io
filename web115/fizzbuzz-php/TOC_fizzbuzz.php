@@ -31,27 +31,27 @@
 			<ul>
 				<li class="current"><a href="http://students.cpcc.edu/~jdiaz028/web115/toc.html" title="Table Of Content">TOC</a></li>
         <li class="dropdown">
-          <a href="http://students.cpcc.edu/~jdiaz028/web115/indexx.html" class="dropbtn">MyProfile</a>
+          <a href="../indexx.html" class="dropbtn">MyProfile</a>
             <div class="dropdown-content">
               <a href="http://students.cpcc.edu/~jdiaz028/00-personal/resumeWeb.html">Resume</a>
-              <a href="http://students.cpcc.edu/~jdiaz028/web115/contractweb115.html">Contract</a>
-				      <a href="http://students.cpcc.edu/~jdiaz028/web115/introduction.html">Introduction</a>
-				      <a href="http://students.cpcc.edu/~jdiaz028/web115/template.html" onclick='alert("My first template!")'>Old Template</a>
-				      <a href="http://students.cpcc.edu/~jdiaz028/(d&r)brand/brandweb115.html" onclick='alert("Under construction!")'>Personal Brand Template</a>
- 				      <a href="http://students.cpcc.edu/~jdiaz028/web110/3pagesWeb/" onclick='alert("Learn More About Juan Diaz!")'>Developer</a>
+              <a href="../contractweb115.html">Contract</a>
+				      <a href="../introduction.html">Introduction</a>
+				      <a href="../template.html" onclick='alert("My first template!")'>Old Template</a>
+				      <a href="../../(d&r)brand/brandweb115.html" onclick='alert("Under construction!")'>Personal Brand Template</a>
+ 				      <a href="../../web110/3pagesWeb/" onclick='alert("Learn More About Juan Diaz!")'>Developer</a>
             </div>
         </li>
 				<li>
-					<a href="http://students.cpcc.edu/~jdiaz028/web115/onepagejs/brandVR/" onclick='alert("Under construction!")'>My Brand</a>
+					<a href="../onepagejs/brandVR/" onclick='alert("Under construction!")'>My Brand</a>
 				</li>				
 				<li>
-					<a href="http://students.cpcc.edu/~jdiaz028/web115/fizzbuzz-php/TOC_fizzbuzz.php">fizzbuzz Assigments</a>
+					<a href="TOC_fizzbuzz.php">fizzbuzz Assigments</a>
 		  	</li>
 				<li>
-					<a href="http://students.cpcc.edu/~jdiaz028/web115/others.html">About Us</a>
+					<a href="../others.html">About Us</a>
 				</li>
 		  	<li>
-					<a href="http://students.cpcc.edu/~jdiaz028/web115/contact.html">Contact Us</a>
+					<a href="../contact.html">Contact Us</a>
 		  	</li>
 			</ul>
 		</div>
@@ -92,7 +92,7 @@
 		<p>Copyright &copy; 2018 My Website</p>
 	<div id="socialmenu">
       	<ul>          
-			<li><a href="http://students.cpcc.edu/~jdiaz028/" class="fa fa-expeditedssl" target="_blank" title="MyWebspace"></a></li>
+			<li><a href=".." class="fa fa-expeditedssl" target="_blank" title="MyWebspace"></a></li>
 			<li><a href="https://github.com/JuanPabloDiaz" class="fa fa-github" target="_blank" title="github"></a></li>
 			<li><a href="https://codepen.io/JuanDiaz/#" class="fa fa-codepen" target="_blank" title="codepen"></a></li>
 			<li><a href="https://www.khanacademy.org/profile/jdiaz028/" class="fa fa-leaf" target="_blank" title="khanacademy"></a></li>

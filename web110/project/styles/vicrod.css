@@ -218,7 +218,7 @@ th a {
 }
 @keyframes banner {
 	0%, 20% {
-		background-image: url(http://students.cpcc.edu/~jdiaz028/sharedfiles/images/logo/multilogo.jpg);
+		background-image: url(../../../sharedfiles/images/logo/multilogo.jpg);
 	}
 	25%, 45% {
 		background-image: url(http://juan.diaz.people.cpcc.edu/images/tissot/adv/tissot.png);
