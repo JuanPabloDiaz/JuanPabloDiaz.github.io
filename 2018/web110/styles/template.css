@@ -130,7 +130,7 @@ footer {
 }
 /* third box - background-image */
 #bgimg {
-	background-image:url('../../sharedfiles/background/color/showcase.jpg');
+	background-image:url('../../../sharedfiles/background/color/showcase.jpg');
 	background-position:center right;
 	min-height:400px;
 	margin-bottom:30px;
