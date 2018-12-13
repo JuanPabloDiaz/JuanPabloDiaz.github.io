@@ -19,16 +19,13 @@
     border-color: black;
 		border-radius: 10%;
 		margin-top: 2%;
+		line-height: 30px; /* line spacing */
 		padding: 20px;
-		text-align: center;
 		text-shadow: .2px .5px .1px black, 
                 .3px .3px 5px black;
 }
 .rectangle ul li {
-			font-weight: bold;
-}
-#TOC {
-	text-align: center;
+		font-weight: bold;
 }
  #TOC ul, li {
   list-style: none;
@@ -39,8 +36,8 @@
   border-color: dimgray;
 }
 hr {
-    margin: auto;
-    width: 40%;
+  margin: auto;
+  width: 40%;
 }
 /*--------------------------------------*/
 body{
@@ -63,7 +60,6 @@ body{
 	header{
 		background-color: gray;
 		color: ivory;
-		align-items: center;
 	}
 	header h1{	/* website name go rigth */
 		float: left;
@@ -111,7 +107,7 @@ body{
 }
 #socialmenu li {
 	display: inline;
-    padding: 3px;
+  padding: 3px;
 }
 	/*********************************************************/
 /*	social media	To edit the social menu*/
@@ -130,7 +126,6 @@ body{
 
 .fa:hover {
     opacity: 0.7;
-	
 }
 
 .fa-facebook {
@@ -227,24 +222,6 @@ li.dropdown {
   display: block;
 }
 /***** 	end NAV ******/
-/* third box - background-image */
-	#bgimg{
-		background-image:url('../../sharedfiles/background/color/showcase.jpg');		background-position:center right;
-		min-height:300px;
-		margin-bottom:30px;
-		text-align: center;
-		vertical-align: text-bottom;
-	}
-	#bgimg h1{		/*	welcome text or promotional	*/
-		color:#fff;
-		font-size:50px;
-		line-height: 1.6em;
-		padding-top:50px;		/*ideal to use 		vertical-align: middle;	- doesnt work */
-	}
-	.imgtest{
-		width:150px;
-		float: right;
-	}
 #main{
 	float:left;
 	width:70%;
