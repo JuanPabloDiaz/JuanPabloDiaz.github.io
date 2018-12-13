@@ -44,7 +44,7 @@ body{
   font-family: "Indie Flower";
 	font-size:15px;
 	line-height:1.6em;
-	background-color:#f4f4f4;
+	background-color:lightgray;
 	color: darkred;
 	margin:0;
 }
@@ -93,18 +93,7 @@ body{
 	header .socialMedia a{
 		font-size: 35px;	/*icons size*/
 	}
-
 	/***************************/
-	/* to fix botom setting footer */
-	 footer {
-	text-align: center;
-	background-color: #330000;		/*red*/
-	padding:5px;
-	padding-left:100px;
-}
-#validate a {
-	text-decoration:none;
-}
 #socialmenu li {
 	display: inline;
   padding: 3px;
@@ -193,11 +182,10 @@ li a, .dropbtn {   /* font setting nav */
   text-decoration: none;
   font-size: 16px;
 }
-/*
-li a:hover, .dropdown:hover .dropbtn {   /* highlight when mouse is under*/
-/*	color: orange;
-	font-weight: bold;
-}	*/
+/* highlight when mouse is under*/
+li a:hover, .dropdown:hover .dropbtn {   
+	color: orange;
+}	
 li.dropdown {
   display: inline-block;
 }
@@ -223,23 +211,14 @@ li.dropdown {
 }
 /***** 	end NAV ******/
 #main{
-	float:left;
+	float: left;
 	width:70%;
 	padding:0 30px;
 	box-sizing: border-box;
 }
-#sidebar{
-	float:right;
-	width:30%;
-	background: #333;
-	color:#fff;
-	padding:10px;
-	box-sizing: border-box;
-}
-
 footer{
 	background: #333;
-	color:#fff;
+	color: #fff;
 	text-align: center;
 	padding:20px;
 	margin-top:40px;
@@ -256,21 +235,26 @@ footer{
 		float:none;
 	}
 }
-
-iframe{
-		float:right;
-		border: 0;
-}
 a {
     color: navajowhite;
     text-decoration: none;
 }
-a:hover{
-    color: slategray;
-    text-decoration: none;
+
+/*  colums for my web table of content display*/
+
+/* Create two equal columns that floats next to each other */
+* {
+	  box-sizing: border-box;
 }
-/*--  13 examples TOC  --*/
-#ex {
-	list-style: upper-roman;
-	counter-reset: li;	
+.column {
+  float: left;
+  width: 50%;		/* how many columns*/
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
