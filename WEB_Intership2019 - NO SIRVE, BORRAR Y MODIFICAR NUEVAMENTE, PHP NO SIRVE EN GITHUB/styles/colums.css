@@ -12,6 +12,8 @@ h2 {
     /* permite establecer una estructura y contener todo segun el sigueinte width */
     width: 90%;
     padding: 20px;
+    margin-top: 210px;
+    padding: 15px 15px 20px;
 }
 
 .flex {

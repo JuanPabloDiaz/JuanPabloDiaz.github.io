@@ -1,20 +1,3 @@
-* {
-    margin: 0;
-}
-
-.nav-enlace {
-    background: salmon;
-    color: white;
-    padding: 10px 30px;
-    display: inline-block;
-    /* convierte cajas para q esten pegadas una de la otra */
-    text-decoration: none;
-}
-
-.nav-enlace:hover {
-    background: gray;
-}
-
 nav {
     background-color: rgba(0, 0, 0, 0.733);
     padding-bottom: 2%;
