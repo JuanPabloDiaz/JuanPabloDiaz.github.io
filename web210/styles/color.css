@@ -1,0 +1,123 @@
+/*----------------------------------
+        Created by: Juan Diaz
+        fall 2020
+        Web 210
+----------------------------------*/
+
+
+/*=================================
+basic Colors
+=============
+.menu a {
+   ​#000000: black = color;
+   #e5e5e5: Creame = Background-color;
+    }
+    .right {
+   #e5e5e5: Creame = Background-color;
+    }
+==================================*/
+
+
+/*=================================
+Green Colors using the color scheme
+=============
+.menu a {
+   ​#000000: black = color;
+   ##CBF52E: Creame = Background-color;
+    }
+    .right {
+   ##CBF52E: Creame = Background-color;
+    }
+
+     Color Theme Swatches in Hex
+.Green_color-scheme--1-hex { color: #36FA23; }
+.Green_color-scheme--2-hex { color: #72DE1F; }
+.Green_color-scheme--3-hex { color: #CBF52E; }
+.Green_color-scheme--4-hex { color: #DED71F; }
+.Green_color-scheme--5-hex { color: #FADD23; }
+
+==================================*/
+
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+q {
+    font-style: italic;
+}
+
+img.Monserrate {
+    width: 100%;
+}
+
+img.Developer {
+    width: 80%;
+}
+
+
+/* Side By Side Images*/
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 15.33%;
+    padding: 6px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imageColombia {
+    width: 130%;
+}
+
+
+/* responsable page... */
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
