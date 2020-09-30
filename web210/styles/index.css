@@ -1,44 +1,4 @@
 /*----------------------------------
-        Created by: Juan Diaz
-        fall 2020
-        Web 210
-----------------------------------*/
-
-
-/*=================================
-basic Colors
-=============
-.menu a {
-   ​#000000: black = color;
-   #e5e5e5: Creame = Background-color;
-    }
-    .right {
-   #e5e5e5: Creame = Background-color;
-    }
-==================================*/
-
-
-/*=================================
-Green Colors using the color scheme
-=============
-.menu a {
-   ​#000000: black = color;
-   ##CBF52E: Creame = Background-color;
-    }
-    .right {
-   ##CBF52E: Creame = Background-color;
-    }
-
-     Color Theme Swatches in Hex
-.Green_color-scheme--1-hex { color: #36FA23; }
-.Green_color-scheme--2-hex { color: #72DE1F; }
-.Green_color-scheme--3-hex { color: #CBF52E; }
-.Green_color-scheme--4-hex { color: #DED71F; }
-.Green_color-scheme--5-hex { color: #FADD23; }
-
-==================================*/
-
-/*----------------------------------
 Created by: Juan Diaz
 fall 2020
 Web 210
@@ -62,11 +22,6 @@ Web 210
     padding: 15px;
     margin-top: 7px;
     text-align: center;
-}
-
-/* imagenes de la derecha*/
-.right img {
-    width: 90%;
 }
 
 q {
@@ -95,22 +50,13 @@ img.Developer {
 .menu {
     float: left;
     width: 10%;
-    /*    text-align: left;*/
-    background-color: #f1f1f1;
-
-    /*   The navigation bar will stay at the top of the page while scrolling */
-    /*
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-*/
+    text-align: center;
 }
 
 /* regular menu and Dropdown Button */
 .menu a,
 .dropbtn {
-    /* background-color: #e5e5e5;
-    */
+    background-color: #e5e5e5;
     padding: 8px;
     margin-top: 7px;
     display: block;
@@ -121,10 +67,8 @@ img.Developer {
     font-size: 100%;
 }
 
-
 .menu a:hover {
     color: blue;
-
 }
 
 
@@ -165,13 +109,13 @@ img.Developer {
     background-color: #cac5c5;
 }
 
-/* Side By Side Colombian Images*/
+/* Side By Side Images*/
 
 
 .column {
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 15.33%;
+    padding: 6px;
 }
 
 
@@ -184,43 +128,8 @@ img.Developer {
 }
 
 .imageColombia {
-    width: 100%;
+    width: 130%;
 }
-
-/* Hover figcaption images*/
-
-.containerImg {
-    position: relative;
-    /*width: 50%;
-    max-width: 300px;*/
-}
-
-.imageFigCaption {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.overlay {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    /* Black see-through */
-    color: #f1f1f1;
-    width: 100%;
-    transition: .5s ease;
-    opacity: 0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-}
-
-.containerImg:hover .overlay {
-    opacity: 1;
-}
-
 
 
 /* responsable page... */
