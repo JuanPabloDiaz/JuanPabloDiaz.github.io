@@ -247,14 +247,54 @@ menu .buttonLink {
     display: block;
 }
 
+
 /* responsable page... */
 
-@media only screen and (max-width:620px) {
-
-    /* For mobile phones: */
-    .menu,
-    .main,
-    .right {
-        width: 100%;
+/* For mobile phones and Tablets: */
+@media only screen and (max-width:950px) {
+    .menu {
+        width: 13%;
     }
-}
+
+    #hideonmobile {
+        display: none;
+    }
+
+    .main {
+        width: 85%;
+    }
+
+    /* imagenes de la derecha*/
+
+
+    @media only screen and (max-width:768px) {
+
+        .menu,
+        .main,
+        .right {
+            width: 100%;
+            height: 10%;
+        }
+
+        .menu a,
+        .dropdown-content {
+            text-align: center;
+
+        }
+
+        .menu button,
+        menu .buttonLink {
+            padding: 1% .5%;
+            text-align: center;
+            font-size: 15px;
+        }
+
+    }
+
+    /* For mobile phones*/
+
+    @media only screen and (max-width:430px) {
+        header h1 {
+            font-size: 120%;
+        }
+    }
