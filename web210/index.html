@@ -4,46 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 3: My Color Scheme</title>
+    <title>Portfolio | Juan Diaz</title>
     <link href="styles/color.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="https://static.thenounproject.com/png/583643-200.png" type="image/icon type">
 
-    <style>
-        /* Style the buttons inside the menu */
-        .menu button,
-        menu .buttonLink {
-            display: block;
-            background-color: inherit;
-            color: black;
-            padding: 5% 3%;
-            width: 100%;
-            border: none;
-            outline: none;
-            text-align: left;
-            cursor: pointer;
-            font-size: 17px;
-        }
-
-        /* Change background color of buttons on hover */
-        .menu button:hover {
-            background-color: gray;
-
-            /* Create an active/current "menu button" class */
-            .menu button.active {
-                background-color: gray;
-            }
-
-
-            /* Clear floats after the menu */
-            .clearfix::after {
-                content: "";
-                clear: both;
-                display: table;
-            }
-    </style>
 </head>
 
 <body style="font-family:Verdana;color:#aaaaaa;">
-    <div></div>
 
     <header id="Home" style="background-color:#e5e5e5;padding:15px;text-align:center;">
         <h1>Portfolio &#12951; Juan D&iacute;az</h1>
@@ -53,24 +20,6 @@
     <!-- empieza el contenido de la pagina que contiene el NAV-->
     <div style="overflow:auto">
 
-        <!--<nav class="menu">
-            <a href="#Home">Home</a>
-            <a href="#About_me">About me</a>
-            <a href="#My_city">My City</a>
-            <a href="#My_country">My Country</a>
-            <a href="#My_culture">My Culture</a>
-            <a href="#My_Hobby">My Hobby</a>
-            <a href="introduction.html">My Intro</a>
-            <div class="dropdown">
-                <button class="dropbtn">My Labs</button>
-                <div class="dropdown-content">
-                    <a href="diaz_lab1.html">Lab 1</a>
-                    <a href="diaz_lab2.html">Lab 2</a>
-                    <a href="diaz_lab3.html">Lab 3</a>
-                </div>
-            </div>
-        </nav>
-    -->
         <nav class="menu">
             <button class="menulinks" onmouseover="openContent(event, 'About_me')">About me</button>
             <button class="menulinks" onmouseover="openContent(event, 'My_city')">My City</button>
@@ -87,7 +36,6 @@
                     <a href="diaz_lab3.html">Lab 3</a>
                 </div>
             </div>
-
         </nav>
 
         <!-- empieza el contenido de pagina tipo BLOG-->
@@ -111,7 +59,7 @@
 
                 <ul>
                     <li><b>Personal background:</b>
-                        Grew up in Bogota, Colombia, studying culinary arts, and decided to travel the world. But
+                        Grew up in Bogot&aacute;, Colombia, studying culinary arts, and decided to travel the world. But
                         first I need to learn English, so I moved six years ago to America and here I am in
                         Charlotte. I
                         am
@@ -179,12 +127,12 @@
                 <figure>
                     <img id="Monserrate"
                         src="https://cdn.pixabay.com/photo/2017/08/24/01/54/monserrate-2675185_960_720.png"
-                        alt="Bogota-Monserrate">
-                    <figcaption>Bogota, Monserrate</figcaption>
+                        alt="Bogot&aacute;-Monserrate">
+                    <figcaption style="text-align-last: center;">Bogot&aacute;, Monserrate</figcaption>
                 </figure>
                 <p><q cite="https://www.tripadvisor.com/Tourism-g294074-Bogota-Vacations.html">Ten million people
                         call
-                        vibrant, passionate, sprawling Bogota home. The energy of this metropolitan heart of
+                        vibrant, passionate, sprawling Bogot&aacute; home. The energy of this metropolitan heart of
                         Colombia is
                         in part fueled by its hundreds of eclectic and authentic dining hot spots, fantastic wines,
                         and
@@ -281,6 +229,9 @@
                         <div class="overlay">Desert</div>
                     </div>
                 </div>
+
+                <img id="ColombianMap" src="http://students.cpcc.edu/~jdiaz028/web210/images/colombianFlag.jpg"
+                    alt="Colombian Map">
             </div> <!-- My Country end  -->
 
 
@@ -288,6 +239,32 @@
                 <h2>My Culture</h2>
                 <p>Colombian culture is so rich that every region has a particular accent, traditions, dishes and
                     climate. </p>
+                <p>Colombia is a fascinating country that blends together the traditions of its European, African and
+                    indigenous roots while constantly creating new customs to keep its culture unique.</p>
+                <p>Most of our activities in the daily life are around food, this is why I consider important to mention
+                    the Colombian culture around food, below is some information I found useful:</p>
+                <p><b>Food in Daily Life: </b><br>
+                    <q>Most middle-class families eat elaborate meals that reflect Spanish and
+                        indigenous traditions. A typical meal is identified by size rather than content, such as a light
+                        breakfast, a substantive midday lunch, and a lighter meal in the early evening. Dinner consists
+                        of fresh fruit, homemade soup, and a main dish with meat or fish accompanied by rice and/or
+                        potatoes. Lower-income people eat a more carbohydrate-rich diet. Meals usually end with a very
+                        sweet dessert, frequently made from panela, a type of brown sugar.
+                        <br>
+                        There are regional differences in foods. In the interior rural regions, a hearty breakfast
+                        consists of a strip of pork, rice and beans, sweet plantains, and a large steak with fried eggs.
+                        Dinner is similar, except for the eggs. In the coastal region, the emphasis is on seafood. In
+                        Cartagena, the typical lunch consists of rice with coconut, fried plantains, and shrimp.
+                        Colombians enjoy a variety of national and international cuisines.
+                        <br>
+                        Specialty dishes are eaten during holidays. A dish associated with the capital is ajiaco, a stew
+                        with three types of potato, chicken, and corn, that is served with capers, cream, and avocado.
+                        Another dish served during religious holidays is pasteles, while along the coast, people eat
+                        sancocho, a fish or chicken stew. Colombians consume large quantities of beer and coffee and
+                        relatively little milk or wine. Aguardiente combines local rum and a corn of sugar
+                        brandy.</q><br>
+                    <a href="https://www.everyculture.com/Bo-Co/Colombia.html#ixzz6ZZb9rZKW"> -Read more-</a>
+                </p>
                 <div class="row">
                     <div class="column containerImg">
                         <img src="https://cdn.pixabay.com/photo/2017/09/20/19/44/tradiciconal-2769786_960_720.jpg"
@@ -301,7 +278,7 @@
                     </div>
                     <div class="column containerImg">
                         <img src="https://cdn.pixabay.com/photo/2016/08/03/02/21/background-1565654_960_720.jpg"
-                            alt="Graphity" class="imageFigCaption">
+                            alt="Street Art" class="imageFigCaption">
                         <div class="overlay">Street Art</div>
                     </div>
 
@@ -374,19 +351,19 @@
                 </ul>
                 <div class="row">
                     <div class="column containerImg">
-                        <img src="https://cdn.pixabay.com/photo/2016/09/09/06/06/cycling-1656222__340.jpg" alt="Tranvia"
-                            class="imageFigCaption">
-                        <div class="overlay">Cycling</div>
+                        <img src="https://cdn.pixabay.com/photo/2016/09/09/06/06/cycling-1656222__340.jpg"
+                            alt="Road Bike" class="imageFigCaption">
+                        <div class="overlay">Road Bike</div>
                     </div>
                     <div class="column containerImg">
                         <img src="https://cdn.pixabay.com/photo/2020/02/16/17/51/cycling-4854366_960_720.jpg"
-                            alt="Fauna" class="imageFigCaption">
-                        <div class="overlay">Colombian Cycling</div>
+                            alt="Colombian's Cycling" class="imageFigCaption">
+                        <div class="overlay">Colombian's Cycling</div>
                     </div>
                     <div class="column containerImg">
                         <img src="https://cdn.pixabay.com/photo/2016/08/02/10/00/road-bikes-1562929_960_720.jpg"
-                            alt="MTB" class="imageFigCaption">
-                        <div class="overlay">Peloton</div>
+                            alt="peloton " class="imageFigCaption">
+                        <div class="overlay">Peloton </div>
                     </div>
                     <div class="column containerImg">
                         <img src="https://cdn.pixabay.com/photo/2019/06/25/11/11/mountain-bike-4297972_960_720.jpg"
@@ -394,29 +371,29 @@
                         <div class="overlay">MTB</div>
                     </div>
                     <div class="column containerImg">
-                        <img src="https://cdn.pixabay.com/photo/2020/07/23/10/49/sunset-5431001_960_720.jpg" alt="Fauna"
-                            class="imageFigCaption">
+                        <img src="https://cdn.pixabay.com/photo/2020/07/23/10/49/sunset-5431001_960_720.jpg"
+                            alt="Sunset" class="imageFigCaption">
                         <div class="overlay">Sunset</div>
                     </div>
                     <div class="column containerImg">
-                        <img src="https://cdn.pixabay.com/photo/2017/06/25/19/50/bike-path-2441777__340.jpg" alt="MTB"
+                        <img src="https://cdn.pixabay.com/photo/2017/06/25/19/50/bike-path-2441777__340.jpg" alt="Path"
                             class="imageFigCaption">
                         <div class="overlay">Path</div>
                     </div>
                     <div class="column containerImg">
-                        <img src="https://cdn.pixabay.com/photo/2020/04/06/19/56/bicycle-5011079_960_720.jpg"
-                            alt="Tranvia" class="imageFigCaption">
+                        <img src="https://cdn.pixabay.com/photo/2020/04/06/19/56/bicycle-5011079_960_720.jpg" alt="Bike"
+                            class="imageFigCaption">
                         <div class="overlay">Bike</div>
                     </div>
                     <div class="column containerImg">
                         <img src="https://cdn.pixabay.com/photo/2018/02/09/12/34/wheel-3141505_960_720.jpg" alt="MTB"
                             class="imageFigCaption">
-                        <div class="overlay">Play</div>
+                        <div class="overlay">MTB</div>
                     </div>
                     <div class="column containerImg">
                         <img src="https://cdn.pixabay.com/photo/2018/01/06/15/08/mountain-bike-3065159__340.jpg"
-                            alt="MTB" class="imageFigCaption">
-                        <div class="overlay">MTB</div>
+                            alt="Mountain Bike" class="imageFigCaption">
+                        <div class="overlay">Mountain Bike</div>
                     </div>
                 </div>
 
@@ -451,7 +428,7 @@
             <figure>
                 <img id="bike" src="https://cdn.pixabay.com/photo/2020/06/09/18/48/bogota-5279634_960_720.jpg"
                     alt="Cycing">
-                <figcaption>Bogota</figcaption>
+                <figcaption>Bogot&aacute;</figcaption>
             </figure>
             <figure>
                 <img id="bike" src="http://students.cpcc.edu/~jdiaz028/web210/images/bicycleVector.jpg" alt="Cycing">

@@ -73,11 +73,13 @@ q {
     font-style: italic;
 }
 
-img.Monserrate {
-    width: 100%;
+#Monserrate {
+    width: 60%;
+    margin: auto;
+    display: block;
 }
 
-img.Developer {
+#Developer {
     width: 80%;
 }
 
@@ -97,13 +99,6 @@ img.Developer {
     width: 10%;
     /*    text-align: left;*/
     background-color: #f1f1f1;
-
-    /*   The navigation bar will stay at the top of the page while scrolling */
-    /*
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-*/
 }
 
 /* regular menu and Dropdown Button */
@@ -121,20 +116,6 @@ img.Developer {
     font-size: 100%;
 }
 
-
-.menu a:hover {
-    color: blue;
-
-}
-
-
-/* The container <div> - needed to position the dropdown content
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-*/
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
@@ -165,6 +146,45 @@ img.Developer {
     background-color: #cac5c5;
 }
 
+/* Style the buttons inside the menu */
+.menu button,
+menu .buttonLink {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 5% 3%;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.menu button:hover,
+.menu a:hover {
+    background-color: gray;
+    color: rgb(237, 248, 187);
+}
+
+/* Create an active/current "menu button" class */
+.menu button.active {
+    background-color: gray;
+}
+
+
+/* Clear floats after the menu */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+/*  END NAV*/
 /* Side By Side Colombian Images*/
 
 
@@ -221,7 +241,11 @@ img.Developer {
     opacity: 1;
 }
 
-
+#ColombianMap {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
 
 /* responsable page... */
 
