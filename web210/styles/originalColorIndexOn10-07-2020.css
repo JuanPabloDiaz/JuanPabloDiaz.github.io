@@ -1,44 +1,4 @@
 /*----------------------------------
-        Created by: Juan Diaz
-        fall 2020
-        Web 210
-----------------------------------*/
-
-
-/*=================================
-basic Colors
-=============
-.menu a {
-   ​#000000: black = color;
-   #e5e5e5: Creame = Background-color;
-    }
-    .right {
-   #e5e5e5: Creame = Background-color;
-    }
-==================================*/
-
-
-/*=================================
-Green Colors using the color scheme
-=============
-.menu a {
-   ​#000000: black = color;
-   ##CBF52E: Creame = Background-color;
-    }
-    .right {
-   ##CBF52E: Creame = Background-color;
-    }
-
-     Color Theme Swatches in Hex
-.Green_color-scheme--1-hex { color: #36FA23; }
-.Green_color-scheme--2-hex { color: #72DE1F; }
-.Green_color-scheme--3-hex { color: #CBF52E; }
-.Green_color-scheme--4-hex { color: #DED71F; }
-.Green_color-scheme--5-hex { color: #FADD23; }
-
-==================================*/
-
-/*----------------------------------
 Created by: Juan Diaz
 fall 2020
 Web 210
@@ -47,6 +7,22 @@ Web 210
 /* Global */
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana;
+    color: #aaaaaa;
+}
+
+header {
+    background-color: #e5e5e5;
+    padding: 15px;
+    text-align: center;
+}
+
+#websiteAllContent {
+    overflow: auto;
+
 }
 
 .main {
@@ -247,6 +223,20 @@ menu .buttonLink {
     display: block;
 }
 
+footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+footer img {
+    width: 3%;
+}
+
+footer a {
+    text-decoration: none;
+}
 
 /* responsable page... */
 
